@@ -1,11 +1,11 @@
-# 万卷-CC
+# 万卷2.0（万卷-CC）
 [English🌎](./README.md)|**简体中文**🀄 
 
 ![](readme_pic/cover.jpg)
 
-## 万卷-CC
+## 万卷2.0（万卷-CC）
 
-万卷-CC(Wanjuan-CC) 是从CommonCrawl获取的一个 1T Tokens 的高质量英文网络文本数据集。结果显示，与各类开源英文CC语料在 Perspective API 不同维度的评估上，WanJuan-CC都表现出更高的安全性。此外，通过在4个验证集上的困惑度（PPL）和6下游任务的准确率，也展示了WanJuan-CC的实用性。WanJuan-CC在各种验证集上的PPL表现出竞争力，特别是在要求更高语言流畅性的tiny-storys等集上。通过与同类型数据集进行1B模型训练对比，使用验证数据集的困惑度（perplexity）和下游任务的准确率作为评估指标，实验证明，WanJuan-CC显著提升了英文文本补全和通用英文能力任务的性能。
+WanJuan2.0(WanJuan-CC) (以下简称WanJuan-CC)是从CommonCrawl获取的一个 1T Tokens 的高质量英文网络文本数据集。结果显示，与各类开源英文CC语料在 Perspective API 不同维度的评估上，WanJuan-CC都表现出更高的安全性。此外，通过在4个验证集上的困惑度（PPL）和6下游任务的准确率，也展示了WanJuan-CC的实用性。WanJuan-CC在各种验证集上的PPL表现出竞争力，特别是在要求更高语言流畅性的tiny-storys等集上。通过与同类型数据集进行1B模型训练对比，使用验证数据集的困惑度（perplexity）和下游任务的准确率作为评估指标，实验证明，WanJuan-CC显著提升了英文文本补全和通用英文能力任务的性能。
 
 
 ## 数据处理方法
@@ -17,7 +17,7 @@
 ![](readme_pic/pipline.png)
 <p align="center">
 <b>
-Wanjuan-CC数据处理流程图
+WanJuan-CC数据处理流程图
 </b>
 </p>
 
@@ -33,7 +33,7 @@ Wanjuan-CC数据处理流程图
 ![](readme_pic/retention.png)
 <p align="center">
 <b>
-Wanjuan-CC数据处理流程相对去除率和绝对留存率
+WanJuan-CC数据处理流程相对去除率和绝对留存率
 </b>
 </p>
 
@@ -91,7 +91,7 @@ Wanjuan-CC数据处理流程相对去除率和绝对留存率
 ![](readme_pic/data_volume.png)
 <p align="center">
 <b>
-Wanjuan-CC数据集年份分布
+WanJuan-CC数据集年份分布
 </b>
 </p>
 
@@ -101,7 +101,7 @@ Wanjuan-CC数据集年份分布
 ![](readme_pic/statistics_signal.png)
 <p align="center">
 <b>
-Wanjuan-CC数据集统计信息分布
+WanJuan-CC数据集统计信息分布
 </b>
 </p>
 
@@ -114,7 +114,7 @@ Wanjuan-CC数据集统计信息分布
 
 ## 许可
 
-wanjuan-cc整体采用CC BY 4.0许可协议。您可以自由共享、改编该数据集，唯需遵循以下条件：
+WanJuan-CC整体采用CC BY 4.0许可协议。您可以自由共享、改编该数据集，唯需遵循以下条件：
 - 署名：您必须适当地标明作者、提供指向本协议的链接，以及指明是否（对原始数据集）做了修改。您可以以任何合理的方式这样做，但不能以任何方式暗示许可人同意您或您的使用。
 - 没有附加限制：您不得使用法律条款或技术措施来限制他人执行许可证允许的任何操作。
 完整协议内容，请访问[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)协议全文。
