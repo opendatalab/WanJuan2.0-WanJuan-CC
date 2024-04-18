@@ -1,11 +1,11 @@
-# Wanjuan-CC
+# WanJuan 2.0 (Wanjuan-CC)
  **English**🌎|[简体中文](./README-zh.md)🀄 
 
 ![](readme_pic/cover.jpg)
 
-## Wanjuan-CC
+## WanJuan 2.0 (Wanjuan-CC)
 
-Wanjuan-CC(万卷-CC) is a high-quality English web text dataset efficiently extracted from CommonCrawl, consisting of 1.0T tokens. The results show that compared with various open-source English CC corpora evaluated on different dimensions of the Perspective API, WanJuan-CC exhibits higher safety. Moreover, its practicality is demonstrated through perplexity (PPL) on four validation sets and accuracy on six downstream tasks. WanJuan-CC shows competitive PPL performance on various validation sets, especially on sets like tiny-storys that require higher language fluency. By comparing with similar datasets in 1B model training, using the perplexity of the validation dataset and the accuracy of downstream tasks as evaluation indicators, it has been experimentally proven that WanJuan-CC significantly improves the performance of English text completion and general English ability tasks.
+WanJuan2.0 (WanJuan-CC)(It will be hereafter referred to as "WanJuan-CC") is a high-quality English web text dataset efficiently extracted from CommonCrawl, consisting of 1.0T tokens. The results show that compared with various open-source English CC corpora evaluated on different dimensions of the Perspective API, WanJuan-CC exhibits higher safety. Moreover, its practicality is demonstrated through perplexity (PPL) on four validation sets and accuracy on six downstream tasks. WanJuan-CC shows competitive PPL performance on various validation sets, especially on sets like tiny-storys that require higher language fluency. By comparing with similar datasets in 1B model training, using the perplexity of the validation dataset and the accuracy of downstream tasks as evaluation indicators, it has been experimentally proven that WanJuan-CC significantly improves the performance of English text completion and general English ability tasks.
 
 ## Data Processing Method
 
