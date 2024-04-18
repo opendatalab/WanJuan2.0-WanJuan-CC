@@ -1,9 +1,9 @@
-# WanJuan 2.0 (Wanjuan-CC)
+# WanJuan 2.0 (WanJuan-CC)
  **English**🌎|[简体中文](./README-zh.md)🀄 
 
 ![](readme_pic/cover.jpg)
 
-## WanJuan 2.0 (Wanjuan-CC)
+## WanJuan 2.0 (WanJuan-CC)
 
 WanJuan2.0 (WanJuan-CC)(It will be hereafter referred to as "WanJuan-CC") is a high-quality English web text dataset efficiently extracted from CommonCrawl, consisting of 1.0T tokens. The results show that compared with various open-source English CC corpora evaluated on different dimensions of the Perspective API, WanJuan-CC exhibits higher safety. Moreover, its practicality is demonstrated through perplexity (PPL) on four validation sets and accuracy on six downstream tasks. WanJuan-CC shows competitive PPL performance on various validation sets, especially on sets like tiny-storys that require higher language fluency. By comparing with similar datasets in 1B model training, using the perplexity of the validation dataset and the accuracy of downstream tasks as evaluation indicators, it has been experimentally proven that WanJuan-CC significantly improves the performance of English text completion and general English ability tasks.
 
@@ -16,7 +16,7 @@ In the preparation phase of the WanJuan-CC dataset, the OpenDataLab team built a
 ![](readme_pic/pipline.png)
 <p align="center">
 <b>
-Wanjuan-CC data processing flow
+WanJuan-CC data processing flow
 </b>
 </p>
 
@@ -32,7 +32,7 @@ We have counted the number of documents at each step and plotted the relative re
 ![](readme_pic/retention.png)
 <p align="center">
 <b>
-Wanjuan-CC data processing flow relative removal rate and absolute retention rate
+WanJuan-CC data processing flow relative removal rate and absolute retention rate
 </b>
 </p>
 
@@ -90,7 +90,7 @@ We have counted the yearly distribution of document numbers, storage space, and 
 ![](readme_pic/data_volume.png)
 <p align="center">
 <b>
-Wanjuan-CC dataset yearly distribution
+WanJuan-CC dataset yearly distribution
 </b>
 </p>
 
@@ -101,7 +101,7 @@ We used some statistical indicators to describe some basic information of the Wa
 ![](readme_pic/statistics_signal.png)
 <p align="center">
 <b>
-Wanjuan-CC dataset statistics information distribution
+WanJuan-CC dataset statistics information distribution
 </b>
 </p>
 
@@ -114,7 +114,7 @@ Wanjuan-CC dataset statistics information distribution
 
 ## License
 
-wanjuan-cc as a whole adopts the CC BY 4.0 license agreement. You can freely share and adapt this dataset, but you must comply with the following conditions:
+WanJuan-CC as a whole adopts the CC BY 4.0 license agreement. You can freely share and adapt this dataset, but you must comply with the following conditions:
 - Attribution: You must appropriately acknowledge the author, provide a link to this license, and indicate whether changes were made to the original dataset. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 - No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
   
